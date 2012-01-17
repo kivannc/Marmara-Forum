@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF882A8D14910F7700149DB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882A8C14910F7700149DB5 /* UIKit.framework */; };
+		FF882A8F14910F7700149DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882A8E14910F7700149DB5 /* Foundation.framework */; };
+		FF882A9114910F7700149DB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882A9014910F7700149DB5 /* CoreGraphics.framework */; };
+		FF882A9714910F7700149DB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF882A9514910F7700149DB5 /* InfoPlist.strings */; };
+		FF882A9A14910F7700149DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882A9914910F7700149DB5 /* main.m */; };
+		FF882AB514910FB800149DB5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AA814910FB800149DB5 /* Reachability.m */; };
+		FF882AB614910FB800149DB5 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AA914910FB800149DB5 /* SBJsonWriter.m */; };
+		FF882AB714910FB800149DB5 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AAB14910FB800149DB5 /* SBJsonParser.m */; };
+		FF882AB814910FB800149DB5 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AAD14910FB800149DB5 /* SBJsonBase.m */; };
+		FF882AB914910FB800149DB5 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AAF14910FB800149DB5 /* SBJSON.m */; };
+		FF882ABA14910FB800149DB5 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AB114910FB800149DB5 /* NSString+SBJSON.m */; };
+		FF882ABB14910FB800149DB5 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AB314910FB800149DB5 /* NSObject+SBJSON.m */; };
+		FF882ABF14910FCC00149DB5 /* SubMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882ABC14910FCC00149DB5 /* SubMenuViewController.m */; };
+		FF882AC014910FCC00149DB5 /* SubMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882ABD14910FCC00149DB5 /* SubMenuViewController.xib */; };
+		FF882AC314910FD600149DB5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882AC114910FD600149DB5 /* MainWindow.xib */; };
+		FF882AC414910FD600149DB5 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882AC214910FD600149DB5 /* MapViewController.xib */; };
+		FF882AD914910FDE00149DB5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AC514910FDE00149DB5 /* MapViewController.m */; };
+		FF882ADA14910FDE00149DB5 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AC614910FDE00149DB5 /* ShopViewController.m */; };
+		FF882ADB14910FDE00149DB5 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882AC714910FDE00149DB5 /* EventViewController.xib */; };
+		FF882ADC14910FDE00149DB5 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AC814910FDE00149DB5 /* EventViewController.m */; };
+		FF882ADD14910FDE00149DB5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AC914910FDE00149DB5 /* FirstViewController.m */; };
+		FF882ADE14910FDE00149DB5 /* marmaraforumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882ACA14910FDE00149DB5 /* marmaraforumAppDelegate.m */; };
+		FF882ADF14910FDE00149DB5 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882ACB14910FDE00149DB5 /* MenuViewController.m */; };
+		FF882AE014910FDE00149DB5 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882ACD14910FDE00149DB5 /* MenuViewController.xib */; };
+		FF882AE114910FDE00149DB5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882AD114910FDE00149DB5 /* FirstViewController.xib */; };
+		FF882AE214910FDE00149DB5 /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882AD214910FDE00149DB5 /* ShopViewController.xib */; };
+		FF882AE314910FDE00149DB5 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF882AD514910FDE00149DB5 /* ButtonViewController.xib */; };
+		FF882AE414910FDE00149DB5 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF882AD714910FDE00149DB5 /* ButtonViewController.m */; };
+		FF882AE714910FF100149DB5 /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF882AE514910FF100149DB5 /* shops.plist */; };
+		FF882AE814910FF100149DB5 /* road.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF882AE614910FF100149DB5 /* road.plist */; };
+		FF882B001491100B00149DB5 /* shop_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AE91491100A00149DB5 /* shop_bg.png */; };
+		FF882B011491100B00149DB5 /* event_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AEA1491100A00149DB5 /* event_menu.png */; };
+		FF882B021491100B00149DB5 /* map_control.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AEB1491100A00149DB5 /* map_control.png */; };
+		FF882B031491100B00149DB5 /* menu_back.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AEC1491100A00149DB5 /* menu_back.png */; };
+		FF882B041491100B00149DB5 /* ulasim2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AED1491100A00149DB5 /* ulasim2.png */; };
+		FF882B051491100B00149DB5 /* ulasim1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AEE1491100A00149DB5 /* ulasim1.png */; };
+		FF882B061491100B00149DB5 /* ulasim0.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AEF1491100A00149DB5 /* ulasim0.png */; };
+		FF882B071491100B00149DB5 /* ulasim_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF01491100A00149DB5 /* ulasim_menu.png */; };
+		FF882B081491100B00149DB5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF11491100A00149DB5 /* menu.png */; };
+		FF882B091491100B00149DB5 /* harita2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF21491100A00149DB5 /* harita2.jpg */; };
+		FF882B0A1491100B00149DB5 /* foot2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF31491100A00149DB5 /* foot2.png */; };
+		FF882B0B1491100B00149DB5 /* foot1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF41491100A00149DB5 /* foot1.png */; };
+		FF882B0C1491100B00149DB5 /* foot0.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF51491100B00149DB5 /* foot0.png */; };
+		FF882B0D1491100B00149DB5 /* shop_item.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF61491100B00149DB5 /* shop_item.png */; };
+		FF882B0E1491100B00149DB5 /* event_arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF71491100B00149DB5 /* event_arrow_right.png */; };
+		FF882B0F1491100B00149DB5 /* event_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF81491100B00149DB5 /* event_arrow_left.png */; };
+		FF882B101491100B00149DB5 /* event_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AF91491100B00149DB5 /* event_bg.png */; };
+		FF882B111491100B00149DB5 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AFA1491100B00149DB5 /* bus.png */; };
+		FF882B121491100B00149DB5 /* harita_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AFB1491100B00149DB5 /* harita_icon.png */; };
+		FF882B131491100B00149DB5 /* anamenu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AFC1491100B00149DB5 /* anamenu_button.png */; };
+		FF882B141491100B00149DB5 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AFD1491100B00149DB5 /* button_back.png */; };
+		FF882B151491100B00149DB5 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = FF882AFE1491100B00149DB5 /* car.png */; };
+		FF882B161491100B00149DB5 /* harita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF882AFF1491100B00149DB5 /* harita.jpg */; };
+		FF882B231491102600149DB5 /* map5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B181491102600149DB5 /* map5.mp3 */; };
+		FF882B241491102600149DB5 /* map4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B191491102600149DB5 /* map4.mp3 */; };
+		FF882B251491102600149DB5 /* map3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B1A1491102600149DB5 /* map3.mp3 */; };
+		FF882B261491102600149DB5 /* map2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B1B1491102600149DB5 /* map2.mp3 */; };
+		FF882B271491102600149DB5 /* map1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B1C1491102600149DB5 /* map1.mp3 */; };
+		FF882B281491102600149DB5 /* map0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B1D1491102600149DB5 /* map0.mp3 */; };
+		FF882B291491102600149DB5 /* map10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B1E1491102600149DB5 /* map10.mp3 */; };
+		FF882B2A1491102600149DB5 /* map9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B1F1491102600149DB5 /* map9.mp3 */; };
+		FF882B2B1491102600149DB5 /* map8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B201491102600149DB5 /* map8.mp3 */; };
+		FF882B2C1491102600149DB5 /* map7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B211491102600149DB5 /* map7.mp3 */; };
+		FF882B2D1491102600149DB5 /* map6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF882B221491102600149DB5 /* map6.mp3 */; };
+		FF882B2F1491104400149DB5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882B2E1491104400149DB5 /* AVFoundation.framework */; };
+		FF882B311491104900149DB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882B301491104900149DB5 /* SystemConfiguration.framework */; };
+		FF882B331491104D00149DB5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF882B321491104D00149DB5 /* QuartzCore.framework */; };
+		FF9B589014911A0200BA81B3 /* mf57.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9B588F14911A0200BA81B3 /* mf57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF882A8814910F7700149DB5 /* marmaraforum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marmaraforum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF882A8C14910F7700149DB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF882A8E14910F7700149DB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF882A9014910F7700149DB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF882A9414910F7700149DB5 /* marmaraforum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "marmaraforum-Info.plist"; sourceTree = "<group>"; };
+		FF882A9614910F7700149DB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF882A9814910F7700149DB5 /* marmaraforum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "marmaraforum-Prefix.pch"; sourceTree = "<group>"; };
+		FF882A9914910F7700149DB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF882AA714910FB800149DB5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FF882AA814910FB800149DB5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FF882AA914910FB800149DB5 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FF882AAA14910FB800149DB5 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FF882AAB14910FB800149DB5 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FF882AAC14910FB800149DB5 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FF882AAD14910FB800149DB5 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FF882AAE14910FB800149DB5 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FF882AAF14910FB800149DB5 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FF882AB014910FB800149DB5 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FF882AB114910FB800149DB5 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FF882AB214910FB800149DB5 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FF882AB314910FB800149DB5 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FF882AB414910FB800149DB5 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FF882ABC14910FCC00149DB5 /* SubMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubMenuViewController.m; sourceTree = "<group>"; };
+		FF882ABD14910FCC00149DB5 /* SubMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubMenuViewController.xib; sourceTree = "<group>"; };
+		FF882ABE14910FCC00149DB5 /* SubMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubMenuViewController.h; sourceTree = "<group>"; };
+		FF882AC114910FD600149DB5 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		FF882AC214910FD600149DB5 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		FF882AC514910FDE00149DB5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FF882AC614910FDE00149DB5 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		FF882AC714910FDE00149DB5 /* EventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		FF882AC814910FDE00149DB5 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		FF882AC914910FDE00149DB5 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FF882ACA14910FDE00149DB5 /* marmaraforumAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = marmaraforumAppDelegate.m; sourceTree = "<group>"; };
+		FF882ACB14910FDE00149DB5 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		FF882ACC14910FDE00149DB5 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		FF882ACD14910FDE00149DB5 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		FF882ACE14910FDE00149DB5 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FF882ACF14910FDE00149DB5 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		FF882AD014910FDE00149DB5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FF882AD114910FDE00149DB5 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FF882AD214910FDE00149DB5 /* ShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopViewController.xib; sourceTree = "<group>"; };
+		FF882AD314910FDE00149DB5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FF882AD414910FDE00149DB5 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		FF882AD514910FDE00149DB5 /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		FF882AD614910FDE00149DB5 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		FF882AD714910FDE00149DB5 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		FF882AD814910FDE00149DB5 /* marmaraforumAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = marmaraforumAppDelegate.h; sourceTree = "<group>"; };
+		FF882AE514910FF100149DB5 /* shops.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shops.plist; sourceTree = "<group>"; };
+		FF882AE614910FF100149DB5 /* road.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = road.plist; sourceTree = "<group>"; };
+		FF882AE91491100A00149DB5 /* shop_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_bg.png; sourceTree = "<group>"; };
+		FF882AEA1491100A00149DB5 /* event_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_menu.png; sourceTree = "<group>"; };
+		FF882AEB1491100A00149DB5 /* map_control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_control.png; sourceTree = "<group>"; };
+		FF882AEC1491100A00149DB5 /* menu_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_back.png; sourceTree = "<group>"; };
+		FF882AED1491100A00149DB5 /* ulasim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ulasim2.png; sourceTree = "<group>"; };
+		FF882AEE1491100A00149DB5 /* ulasim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ulasim1.png; sourceTree = "<group>"; };
+		FF882AEF1491100A00149DB5 /* ulasim0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ulasim0.png; sourceTree = "<group>"; };
+		FF882AF01491100A00149DB5 /* ulasim_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ulasim_menu.png; sourceTree = "<group>"; };
+		FF882AF11491100A00149DB5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		FF882AF21491100A00149DB5 /* harita2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harita2.jpg; sourceTree = "<group>"; };
+		FF882AF31491100A00149DB5 /* foot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot2.png; sourceTree = "<group>"; };
+		FF882AF41491100A00149DB5 /* foot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot1.png; sourceTree = "<group>"; };
+		FF882AF51491100B00149DB5 /* foot0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot0.png; sourceTree = "<group>"; };
+		FF882AF61491100B00149DB5 /* shop_item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop_item.png; sourceTree = "<group>"; };
+		FF882AF71491100B00149DB5 /* event_arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_arrow_right.png; sourceTree = "<group>"; };
+		FF882AF81491100B00149DB5 /* event_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_arrow_left.png; sourceTree = "<group>"; };
+		FF882AF91491100B00149DB5 /* event_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event_bg.png; sourceTree = "<group>"; };
+		FF882AFA1491100B00149DB5 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		FF882AFB1491100B00149DB5 /* harita_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harita_icon.png; sourceTree = "<group>"; };
+		FF882AFC1491100B00149DB5 /* anamenu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anamenu_button.png; sourceTree = "<group>"; };
+		FF882AFD1491100B00149DB5 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
+		FF882AFE1491100B00149DB5 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		FF882AFF1491100B00149DB5 /* harita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harita.jpg; sourceTree = "<group>"; };
+		FF882B181491102600149DB5 /* map5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map5.mp3; sourceTree = "<group>"; };
+		FF882B191491102600149DB5 /* map4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map4.mp3; sourceTree = "<group>"; };
+		FF882B1A1491102600149DB5 /* map3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map3.mp3; sourceTree = "<group>"; };
+		FF882B1B1491102600149DB5 /* map2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map2.mp3; sourceTree = "<group>"; };
+		FF882B1C1491102600149DB5 /* map1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map1.mp3; sourceTree = "<group>"; };
+		FF882B1D1491102600149DB5 /* map0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map0.mp3; sourceTree = "<group>"; };
+		FF882B1E1491102600149DB5 /* map10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map10.mp3; sourceTree = "<group>"; };
+		FF882B1F1491102600149DB5 /* map9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map9.mp3; sourceTree = "<group>"; };
+		FF882B201491102600149DB5 /* map8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map8.mp3; sourceTree = "<group>"; };
+		FF882B211491102600149DB5 /* map7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map7.mp3; sourceTree = "<group>"; };
+		FF882B221491102600149DB5 /* map6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = map6.mp3; sourceTree = "<group>"; };
+		FF882B2E1491104400149DB5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF882B301491104900149DB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FF882B321491104D00149DB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF9B588F14911A0200BA81B3 /* mf57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mf57.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF882A8514910F7700149DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF882B331491104D00149DB5 /* QuartzCore.framework in Frameworks */,
+				FF882B311491104900149DB5 /* SystemConfiguration.framework in Frameworks */,
+				FF882B2F1491104400149DB5 /* AVFoundation.framework in Frameworks */,
+				FF882A8D14910F7700149DB5 /* UIKit.framework in Frameworks */,
+				FF882A8F14910F7700149DB5 /* Foundation.framework in Frameworks */,
+				FF882A9114910F7700149DB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF882A7D14910F7700149DB5 = {
+			isa = PBXGroup;
+			children = (
+				FF882A9214910F7700149DB5 /* marmaraforum */,
+				FF882A9314910F7700149DB5 /* Supporting Files */,
+				FF882A8B14910F7700149DB5 /* Frameworks */,
+				FF882A8914910F7700149DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF882A8914910F7700149DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF882A8814910F7700149DB5 /* marmaraforum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF882A8B14910F7700149DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF882B321491104D00149DB5 /* QuartzCore.framework */,
+				FF882B301491104900149DB5 /* SystemConfiguration.framework */,
+				FF882B2E1491104400149DB5 /* AVFoundation.framework */,
+				FF882A8C14910F7700149DB5 /* UIKit.framework */,
+				FF882A8E14910F7700149DB5 /* Foundation.framework */,
+				FF882A9014910F7700149DB5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF882A9214910F7700149DB5 /* marmaraforum */ = {
+			isa = PBXGroup;
+			children = (
+				FF882AD014910FDE00149DB5 /* Constants.h */,
+				FF882AD814910FDE00149DB5 /* marmaraforumAppDelegate.h */,
+				FF882ACA14910FDE00149DB5 /* marmaraforumAppDelegate.m */,
+				FF882AC214910FD600149DB5 /* MapViewController.xib */,
+				FF922A6A14B350DB005960F0 /* MenuView */,
+				FF922A6914B350CE005960F0 /* ShopView */,
+				FF922A6814B350B5005960F0 /* EventView */,
+				FF922A6714B350A6005960F0 /* ButtonView */,
+				FF922A6614B35090005960F0 /* SubMenu */,
+				FF922A6514B35080005960F0 /* MapView */,
+				FF922A6B14B350EC005960F0 /* FirstView */,
+				FF9B588F14911A0200BA81B3 /* mf57.png */,
+				FF882AE514910FF100149DB5 /* shops.plist */,
+				FF882AE614910FF100149DB5 /* road.plist */,
+				FF882AA614910FA400149DB5 /* JSON */,
+			);
+			path = marmaraforum;
+			sourceTree = "<group>";
+		};
+		FF882A9314910F7700149DB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF882B171491101400149DB5 /* Audio */,
+				FF882AE91491100A00149DB5 /* shop_bg.png */,
+				FF882AEA1491100A00149DB5 /* event_menu.png */,
+				FF882AEB1491100A00149DB5 /* map_control.png */,
+				FF882AEC1491100A00149DB5 /* menu_back.png */,
+				FF882AED1491100A00149DB5 /* ulasim2.png */,
+				FF882AEE1491100A00149DB5 /* ulasim1.png */,
+				FF882AEF1491100A00149DB5 /* ulasim0.png */,
+				FF882AF01491100A00149DB5 /* ulasim_menu.png */,
+				FF882AF11491100A00149DB5 /* menu.png */,
+				FF882AF21491100A00149DB5 /* harita2.jpg */,
+				FF882AF31491100A00149DB5 /* foot2.png */,
+				FF882AF41491100A00149DB5 /* foot1.png */,
+				FF882AF51491100B00149DB5 /* foot0.png */,
+				FF882AF61491100B00149DB5 /* shop_item.png */,
+				FF882AF71491100B00149DB5 /* event_arrow_right.png */,
+				FF882AF81491100B00149DB5 /* event_arrow_left.png */,
+				FF882AF91491100B00149DB5 /* event_bg.png */,
+				FF882AFA1491100B00149DB5 /* bus.png */,
+				FF882AFB1491100B00149DB5 /* harita_icon.png */,
+				FF882AFC1491100B00149DB5 /* anamenu_button.png */,
+				FF882AFD1491100B00149DB5 /* button_back.png */,
+				FF882AFE1491100B00149DB5 /* car.png */,
+				FF882AFF1491100B00149DB5 /* harita.jpg */,
+				FF882A9414910F7700149DB5 /* marmaraforum-Info.plist */,
+				FF882A9514910F7700149DB5 /* InfoPlist.strings */,
+				FF882A9814910F7700149DB5 /* marmaraforum-Prefix.pch */,
+				FF882A9914910F7700149DB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = marmaraforum;
+			sourceTree = "<group>";
+		};
+		FF882AA614910FA400149DB5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FF882AA714910FB800149DB5 /* Reachability.h */,
+				FF882AA814910FB800149DB5 /* Reachability.m */,
+				FF882AA914910FB800149DB5 /* SBJsonWriter.m */,
+				FF882AAA14910FB800149DB5 /* SBJsonWriter.h */,
+				FF882AAB14910FB800149DB5 /* SBJsonParser.m */,
+				FF882AAC14910FB800149DB5 /* SBJsonParser.h */,
+				FF882AAD14910FB800149DB5 /* SBJsonBase.m */,
+				FF882AAE14910FB800149DB5 /* SBJsonBase.h */,
+				FF882AAF14910FB800149DB5 /* SBJSON.m */,
+				FF882AB014910FB800149DB5 /* SBJSON.h */,
+				FF882AB114910FB800149DB5 /* NSString+SBJSON.m */,
+				FF882AB214910FB800149DB5 /* NSString+SBJSON.h */,
+				FF882AB314910FB800149DB5 /* NSObject+SBJSON.m */,
+				FF882AB414910FB800149DB5 /* NSObject+SBJSON.h */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		FF882B171491101400149DB5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FF882B181491102600149DB5 /* map5.mp3 */,
+				FF882B191491102600149DB5 /* map4.mp3 */,
+				FF882B1A1491102600149DB5 /* map3.mp3 */,
+				FF882B1B1491102600149DB5 /* map2.mp3 */,
+				FF882B1C1491102600149DB5 /* map1.mp3 */,
+				FF882B1D1491102600149DB5 /* map0.mp3 */,
+				FF882B1E1491102600149DB5 /* map10.mp3 */,
+				FF882B1F1491102600149DB5 /* map9.mp3 */,
+				FF882B201491102600149DB5 /* map8.mp3 */,
+				FF882B211491102600149DB5 /* map7.mp3 */,
+				FF882B221491102600149DB5 /* map6.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		FF922A6514B35080005960F0 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				FF882AD314910FDE00149DB5 /* MapViewController.h */,
+				FF882AC514910FDE00149DB5 /* MapViewController.m */,
+				FF882AC114910FD600149DB5 /* MainWindow.xib */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		FF922A6614B35090005960F0 /* SubMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FF882ABE14910FCC00149DB5 /* SubMenuViewController.h */,
+				FF882ABC14910FCC00149DB5 /* SubMenuViewController.m */,
+				FF882ABD14910FCC00149DB5 /* SubMenuViewController.xib */,
+			);
+			name = SubMenu;
+			sourceTree = "<group>";
+		};
+		FF922A6714B350A6005960F0 /* ButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				FF882AD614910FDE00149DB5 /* ButtonViewController.h */,
+				FF882AD714910FDE00149DB5 /* ButtonViewController.m */,
+				FF882AD514910FDE00149DB5 /* ButtonViewController.xib */,
+			);
+			name = ButtonView;
+			sourceTree = "<group>";
+		};
+		FF922A6814B350B5005960F0 /* EventView */ = {
+			isa = PBXGroup;
+			children = (
+				FF882ACF14910FDE00149DB5 /* EventViewController.h */,
+				FF882AC814910FDE00149DB5 /* EventViewController.m */,
+				FF882AC714910FDE00149DB5 /* EventViewController.xib */,
+			);
+			name = EventView;
+			sourceTree = "<group>";
+		};
+		FF922A6914B350CE005960F0 /* ShopView */ = {
+			isa = PBXGroup;
+			children = (
+				FF882AD414910FDE00149DB5 /* ShopViewController.h */,
+				FF882AC614910FDE00149DB5 /* ShopViewController.m */,
+				FF882AD214910FDE00149DB5 /* ShopViewController.xib */,
+			);
+			name = ShopView;
+			sourceTree = "<group>";
+		};
+		FF922A6A14B350DB005960F0 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				FF882ACC14910FDE00149DB5 /* MenuViewController.h */,
+				FF882ACB14910FDE00149DB5 /* MenuViewController.m */,
+				FF882ACD14910FDE00149DB5 /* MenuViewController.xib */,
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
+		FF922A6B14B350EC005960F0 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				FF882ACE14910FDE00149DB5 /* FirstViewController.h */,
+				FF882AC914910FDE00149DB5 /* FirstViewController.m */,
+				FF882AD114910FDE00149DB5 /* FirstViewController.xib */,
+			);
+			name = FirstView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF882A8714910F7700149DB5 /* marmaraforum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF882AA314910F7700149DB5 /* Build configuration list for PBXNativeTarget "marmaraforum" */;
+			buildPhases = (
+				FF882A8414910F7700149DB5 /* Sources */,
+				FF882A8514910F7700149DB5 /* Frameworks */,
+				FF882A8614910F7700149DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marmaraforum;
+			productName = marmaraforum;
+			productReference = FF882A8814910F7700149DB5 /* marmaraforum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF882A7F14910F7700149DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FF882A8214910F7700149DB5 /* Build configuration list for PBXProject "marmaraforum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF882A7D14910F7700149DB5;
+			productRefGroup = FF882A8914910F7700149DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF882A8714910F7700149DB5 /* marmaraforum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF882A8614910F7700149DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF882A9714910F7700149DB5 /* InfoPlist.strings in Resources */,
+				FF882AC014910FCC00149DB5 /* SubMenuViewController.xib in Resources */,
+				FF882AC314910FD600149DB5 /* MainWindow.xib in Resources */,
+				FF882AC414910FD600149DB5 /* MapViewController.xib in Resources */,
+				FF882ADB14910FDE00149DB5 /* EventViewController.xib in Resources */,
+				FF882AE014910FDE00149DB5 /* MenuViewController.xib in Resources */,
+				FF882AE114910FDE00149DB5 /* FirstViewController.xib in Resources */,
+				FF882AE214910FDE00149DB5 /* ShopViewController.xib in Resources */,
+				FF882AE314910FDE00149DB5 /* ButtonViewController.xib in Resources */,
+				FF882AE714910FF100149DB5 /* shops.plist in Resources */,
+				FF882AE814910FF100149DB5 /* road.plist in Resources */,
+				FF882B001491100B00149DB5 /* shop_bg.png in Resources */,
+				FF882B011491100B00149DB5 /* event_menu.png in Resources */,
+				FF882B021491100B00149DB5 /* map_control.png in Resources */,
+				FF882B031491100B00149DB5 /* menu_back.png in Resources */,
+				FF882B041491100B00149DB5 /* ulasim2.png in Resources */,
+				FF882B051491100B00149DB5 /* ulasim1.png in Resources */,
+				FF882B061491100B00149DB5 /* ulasim0.png in Resources */,
+				FF882B071491100B00149DB5 /* ulasim_menu.png in Resources */,
+				FF882B081491100B00149DB5 /* menu.png in Resources */,
+				FF882B091491100B00149DB5 /* harita2.jpg in Resources */,
+				FF882B0A1491100B00149DB5 /* foot2.png in Resources */,
+				FF882B0B1491100B00149DB5 /* foot1.png in Resources */,
+				FF882B0C1491100B00149DB5 /* foot0.png in Resources */,
+				FF882B0D1491100B00149DB5 /* shop_item.png in Resources */,
+				FF882B0E1491100B00149DB5 /* event_arrow_right.png in Resources */,
+				FF882B0F1491100B00149DB5 /* event_arrow_left.png in Resources */,
+				FF882B101491100B00149DB5 /* event_bg.png in Resources */,
+				FF882B111491100B00149DB5 /* bus.png in Resources */,
+				FF882B121491100B00149DB5 /* harita_icon.png in Resources */,
+				FF882B131491100B00149DB5 /* anamenu_button.png in Resources */,
+				FF882B141491100B00149DB5 /* button_back.png in Resources */,
+				FF882B151491100B00149DB5 /* car.png in Resources */,
+				FF882B161491100B00149DB5 /* harita.jpg in Resources */,
+				FF882B231491102600149DB5 /* map5.mp3 in Resources */,
+				FF882B241491102600149DB5 /* map4.mp3 in Resources */,
+				FF882B251491102600149DB5 /* map3.mp3 in Resources */,
+				FF882B261491102600149DB5 /* map2.mp3 in Resources */,
+				FF882B271491102600149DB5 /* map1.mp3 in Resources */,
+				FF882B281491102600149DB5 /* map0.mp3 in Resources */,
+				FF882B291491102600149DB5 /* map10.mp3 in Resources */,
+				FF882B2A1491102600149DB5 /* map9.mp3 in Resources */,
+				FF882B2B1491102600149DB5 /* map8.mp3 in Resources */,
+				FF882B2C1491102600149DB5 /* map7.mp3 in Resources */,
+				FF882B2D1491102600149DB5 /* map6.mp3 in Resources */,
+				FF9B589014911A0200BA81B3 /* mf57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF882A8414910F7700149DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF882A9A14910F7700149DB5 /* main.m in Sources */,
+				FF882AB514910FB800149DB5 /* Reachability.m in Sources */,
+				FF882AB614910FB800149DB5 /* SBJsonWriter.m in Sources */,
+				FF882AB714910FB800149DB5 /* SBJsonParser.m in Sources */,
+				FF882AB814910FB800149DB5 /* SBJsonBase.m in Sources */,
+				FF882AB914910FB800149DB5 /* SBJSON.m in Sources */,
+				FF882ABA14910FB800149DB5 /* NSString+SBJSON.m in Sources */,
+				FF882ABB14910FB800149DB5 /* NSObject+SBJSON.m in Sources */,
+				FF882ABF14910FCC00149DB5 /* SubMenuViewController.m in Sources */,
+				FF882AD914910FDE00149DB5 /* MapViewController.m in Sources */,
+				FF882ADA14910FDE00149DB5 /* ShopViewController.m in Sources */,
+				FF882ADC14910FDE00149DB5 /* EventViewController.m in Sources */,
+				FF882ADD14910FDE00149DB5 /* FirstViewController.m in Sources */,
+				FF882ADE14910FDE00149DB5 /* marmaraforumAppDelegate.m in Sources */,
+				FF882ADF14910FDE00149DB5 /* MenuViewController.m in Sources */,
+				FF882AE414910FDE00149DB5 /* ButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF882A9514910F7700149DB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF882A9614910F7700149DB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2493A3149110E8008BE24C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KNS Bilisim Teknolojileri Sanayi Ve Ticaret Limited Sirketi";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KNS Bilisim Teknolojileri Sanayi Ve Ticaret Limited Sirketi";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F3BC4F13-DA39-409D-A649-AC3EA4A90EB1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F3BC4F13-DA39-409D-A649-AC3EA4A90EB1";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		FF2493A4149110E8008BE24C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KNS Bilisim Teknolojileri Sanayi Ve Ticaret Limited Sirketi";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marmaraforum/marmaraforum-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "marmaraforum/marmaraforum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F3BC4F13-DA39-409D-A649-AC3EA4A90EB1";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		FF882AA114910F7700149DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF882AA214910F7700149DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FF882AA414910F7700149DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marmaraforum/marmaraforum-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "marmaraforum/marmaraforum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF882AA514910F7700149DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marmaraforum/marmaraforum-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "marmaraforum/marmaraforum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF882A8214910F7700149DB5 /* Build configuration list for PBXProject "marmaraforum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF882AA114910F7700149DB5 /* Debug */,
+				FF882AA214910F7700149DB5 /* Release */,
+				FF2493A3149110E8008BE24C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF882AA314910F7700149DB5 /* Build configuration list for PBXNativeTarget "marmaraforum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF882AA414910F7700149DB5 /* Debug */,
+				FF882AA514910F7700149DB5 /* Release */,
+				FF2493A4149110E8008BE24C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF882A7F14910F7700149DB5 /* Project object */;
+}

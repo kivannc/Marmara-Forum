@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        
+        <key>Yeme İçme</key>
+        <array>
+            <dict>
+                <key>sid</key>
+                <string>1</string>
+                
+                <key>shop_name</key>
+                <string>BEREKET DÖNDER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>2</string>
+                <key>shop_name</key>
+                
+                <string>BURGER KING</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>3</string>
+                <key>shop_name</key>
+                <string>ARBY'S</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>4</string>
+                <key>shop_name</key>
+                <string>HD DÖNER (DÖNERTÜRK)</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>5</string>
+                <key>shop_name</key>
+                <string>HD ISKENDER</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>6</string>
+                <key>shop_name</key>
+                <string>MC DONALD'S</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>7</string>
+                <key>shop_name</key>
+                <string>OTANTİK KUMPİR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>8</string>
+                
+                <key>shop_name</key>
+                <string>KASAP EVİ DÜRÜM</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>9</string>
+                <key>shop_name</key>
+                
+                <string>KAŞIKLA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>10</string>
+                <key>shop_name</key>
+                <string>KEBAPIX</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>11</string>
+                <key>shop_name</key>
+                <string>KIRKPINAR LOKANTASI</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>12</string>
+                <key>shop_name</key>
+                <string>KÖFTECİ RAMİZ</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>13</string>
+                <key>shop_name</key>
+                <string>ÇİÇEK IZGARA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>14</string>
+                <key>shop_name</key>
+                <string>FITCORNER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>15</string>
+                
+                <key>shop_name</key>
+                <string>İKBAL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>16</string>
+                <key>shop_name</key>
+                
+                <string>PİDEM</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>17</string>
+                <key>shop_name</key>
+                <string>BİLAKİS</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>18</string>
+                <key>shop_name</key>
+                <string>TADIM PIZZA</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>19</string>
+                <key>shop_name</key>
+                <string>TERRACOTA</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>20</string>
+                <key>shop_name</key>
+                <string>CIZBIZ KÖFTE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>21</string>
+                <key>shop_name</key>
+                <string>DEDE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>22</string>
+                
+                <key>shop_name</key>
+                <string>SALAD STATION</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>23</string>
+                <key>shop_name</key>
+                
+                <string>ŞAMPİYON KOKOREÇ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>24</string>
+                <key>shop_name</key>
+                <string>MOE'S</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>25</string>
+                <key>shop_name</key>
+                <string>MEYDAN TANTUNİ</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>26</string>
+                <key>shop_name</key>
+                <string>MARMARİS BÜFE</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>27</string>
+                <key>shop_name</key>
+                <string>TANDIRS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>28</string>
+                <key>shop_name</key>
+                <string>PIZZA HOUSE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>29</string>
+                
+                <key>shop_name</key>
+                <string>TÜRK MUTFAĞI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>30</string>
+                <key>shop_name</key>
+                
+                <string>ETA BAL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>31</string>
+                <key>shop_name</key>
+                <string>POPEYES</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>32</string>
+                <key>shop_name</key>
+                <string>SBARRO</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>33</string>
+                <key>shop_name</key>
+                <string>ANTEP UZUNÇARŞI LAHMACUN EVİ</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>34</string>
+                <key>shop_name</key>
+                <string>BUFFETTO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>35</string>
+                <key>shop_name</key>
+                <string>1919 MEYDAN OLTU CAĞ KEBAP</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>36</string>
+                
+                <key>shop_name</key>
+                <string>L'ERA FRESCA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>37</string>
+                <key>shop_name</key>
+                
+                <string>KANAT EVİ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>38</string>
+                <key>shop_name</key>
+                <string>KOMAGENE</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>39</string>
+                <key>shop_name</key>
+                <string>BİZİM KÖFTE</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>40</string>
+                <key>shop_name</key>
+                <string>GREEN SALADS</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>41</string>
+                <key>shop_name</key>
+                <string>COFFEE CORNER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>42</string>
+                <key>shop_name</key>
+                <string>EFES PUB</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>43</string>
+                
+                <key>shop_name</key>
+                <string>MIRANO RESTAURANT</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>44</string>
+                <key>shop_name</key>
+                
+                <string>HAYAL KAHVESİ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>45</string>
+                <key>shop_name</key>
+                <string>MIDPOINT-MIDPOINT SPORT</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>46</string>
+                <key>shop_name</key>
+                <string>BIG CHEF'S</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>47</string>
+                <key>shop_name</key>
+                <string>ASLI BÖREK</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>48</string>
+                <key>shop_name</key>
+                <string>BOLULU HASAN USTA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>49</string>
+                <key>shop_name</key>
+                <string>KOMŞU FIRIN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>50</string>
+                
+                <key>shop_name</key>
+                <string>STARBUCKS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>51</string>
+                <key>shop_name</key>
+                
+                <string>ÖZSÜT</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>52</string>
+                <key>shop_name</key>
+                <string>MADO</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>53</string>
+                <key>shop_name</key>
+                <string>ESPRESSAMENTE ILLY CAFE (F003A)</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>54</string>
+                <key>shop_name</key>
+                <string>ESPRESSAMENTE ILLY CAFE (K030)</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>55</string>
+                <key>shop_name</key>
+                <string>HACIBOZANOĞULLARI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>56</string>
+                <key>shop_name</key>
+                <string>JUICE PLANET</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>57</string>
+                
+                <key>shop_name</key>
+                <string>WAFFLE STOP</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>58</string>
+                <key>shop_name</key>
+                
+                <string>KEYS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>59</string>
+                <key>shop_name</key>
+                <string>MERKEZ ŞARKÜTERİ</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>60</string>
+                <key>shop_name</key>
+                <string>MR. TOASTER</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>61</string>
+                <key>shop_name</key>
+                <string>ORGANIX KREP</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>208</string>
+                <key>shop_name</key>
+                <string>KRISPY KREME</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>292</string>
+                <key>shop_name</key>
+                <string>Z burger</string>
+            </dict>
+        </array>
+        <key>Moda / Aksesuar</key>
+        <array>
+            
+            <dict>
+                <key>sid</key>
+                <string>62</string>
+                <key>shop_name</key>
+                <string>ADİL IŞIK</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>63</string>
+                <key>shop_name</key>
+                <string>CODENTRY</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>64</string>
+                <key>shop_name</key>
+                <string>FAİK SÖNMEZ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>65</string>
+                
+                <key>shop_name</key>
+                <string>PARK BRAVO-NINE WEST-LA SENZA-INGLOT</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>66</string>
+                <key>shop_name</key>
+                
+                <string>MANGO / HE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>67</string>
+                <key>shop_name</key>
+                <string>İPEKYOL</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>68</string>
+                <key>shop_name</key>
+                <string>TRİKO MISIRLI</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>69</string>
+                <key>shop_name</key>
+                <string>BATİK</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>70</string>
+                <key>shop_name</key>
+                <string>ATALAR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>71</string>
+                <key>shop_name</key>
+                <string>OXXO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>72</string>
+                
+                <key>shop_name</key>
+                <string>TALLY WEIJL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>73</string>
+                <key>shop_name</key>
+                
+                <string>FOREVER NEW</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>74</string>
+                <key>shop_name</key>
+                <string>N&amp;G STYLE</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>75</string>
+                <key>shop_name</key>
+                <string>VEPA'62</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>76</string>
+                <key>shop_name</key>
+                <string>SHEEBEES</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>77</string>
+                <key>shop_name</key>
+                <string>İKİLER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>78</string>
+                <key>shop_name</key>
+                <string>HERRY</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>79</string>
+                
+                <key>shop_name</key>
+                <string>TWIST</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>80</string>
+                <key>shop_name</key>
+                
+                <string>KİĞILI VE ABDULLAH KİĞILI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>81</string>
+                <key>shop_name</key>
+                <string>DUFY</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>82</string>
+                <key>shop_name</key>
+                <string>IGS</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>83</string>
+                <key>shop_name</key>
+                <string>SÜVARİ</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>84</string>
+                <key>shop_name</key>
+                <string>CACHAREL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>85</string>
+                <key>shop_name</key>
+                <string>DAMAT&amp;TWEEN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>86</string>
+                <key>shop_name</key>
+                <string>ALTINYILDIZ CLASSICS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>87</string>
+                
+                <key>shop_name</key>
+                <string>SARAR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>88</string>
+                <key>shop_name</key>
+                
+                <string>RAMSEY</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>89</string>
+                <key>shop_name</key>
+                <string>EMILIO GUIDO</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>90</string>
+                <key>shop_name</key>
+                <string>KIP</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>91</string>
+                <key>shop_name</key>
+                <string>EFOR</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>92</string>
+                <key>shop_name</key>
+                <string>BOYNER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>93</string>
+                <key>shop_name</key>
+                <string>ÇİFT GEYIK KARACA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>94</string>
+                
+                <key>shop_name</key>
+                <string>DEFACTO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>95</string>
+                <key>shop_name</key>
+                
+                <string>KOTON</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>96</string>
+                <key>shop_name</key>
+                <string>FABRİKA</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>97</string>
+                <key>shop_name</key>
+                <string>YKM</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>98</string>
+                <key>shop_name</key>
+                <string>H&amp;M</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>99</string>
+                <key>shop_name</key>
+                <string>LC. WAIKIKI</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>100</string>
+                <key>shop_name</key>
+                <string>HATEMOĞLU</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>101</string>
+                <key>shop_name</key>
+                <string>BENETTON</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>102</string>
+                
+                <key>shop_name</key>
+                <string>ZARA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>103</string>
+                <key>shop_name</key>
+                
+                <string>MUDO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>104</string>
+                <key>shop_name</key>
+                <string>LACOSTE</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>105</string>
+                <key>shop_name</key>
+                <string>MASSIMO DUTTI</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>106</string>
+                <key>shop_name</key>
+                <string>LUFIAN</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>107</string>
+                <key>shop_name</key>
+                <string>BEYMEN BUSINESS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>108</string>
+                <key>shop_name</key>
+                <string>PIERRE CARDIN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>109</string>
+                
+                <key>shop_name</key>
+                <string>STEFANEL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>110</string>
+                <key>shop_name</key>
+                
+                <string>QUE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>111</string>
+                <key>shop_name</key>
+                <string>DKNY</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>112</string>
+                <key>shop_name</key>
+                <string>C&amp;A</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>113</string>
+                <key>shop_name</key>
+                <string>NETWORK</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>114</string>
+                <key>shop_name</key>
+                <string>SILK AND CASHMERE</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>115</string>
+                <key>shop_name</key>
+                <string>GAP</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>116</string>
+                <key>shop_name</key>
+                <string>M&amp;S</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>117</string>
+                <key>shop_name</key>
+                <string>SCOTCH&amp;SODA&amp;STYLE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>118</string>
+                <key>shop_name</key>
+                <string>MAVİ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>119</string>
+                
+                <key>shop_name</key>
+                <string>COLINS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>120</string>
+                <key>shop_name</key>
+                
+                <string>LEVIS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>121</string>
+                <key>shop_name</key>
+                <string>LOFT</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>122</string>
+                <key>shop_name</key>
+                <string>JEANS LAB</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>123</string>
+                <key>shop_name</key>
+                <string>LITTLE BIG</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>124</string>
+                <key>shop_name</key>
+                <string>BERSHKA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>125</string>
+                <key>shop_name</key>
+                <string>PULL&amp;BEAR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>126</string>
+                <key>shop_name</key>
+                <string>RODIMOOD/YARDS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>127</string>
+                
+                <key>shop_name</key>
+                <string>STRADIVARIUS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>128</string>
+                <key>shop_name</key>
+                
+                <string>U.S. POLO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>129</string>
+                <key>shop_name</key>
+                <string>VERA MODA/JACK JONES</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>130</string>
+                <key>shop_name</key>
+                <string>STORE</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>133</string>
+                <key>shop_name</key>
+                <string>U.S. POLO KIDS</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>135</string>
+                <key>shop_name</key>
+                <string>MOTHERCARE&amp;ELC</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>138</string>
+                <key>shop_name</key>
+                <string>S&amp;D SONS AND DAUGHTERS</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>139</string>
+                <key>shop_name</key>
+                <string>AYYILDIZ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>140</string>
+                <key>shop_name</key>
+                <string>DAGI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>141</string>
+                
+                <key>shop_name</key>
+                <string>PENTİ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>142</string>
+                <key>shop_name</key>
+                
+                <string>G LINGERIE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>143</string>
+                <key>shop_name</key>
+                <string>GIRL STOP</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>144</string>
+                <key>shop_name</key>
+                <string>T-BOX</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>145</string>
+                <key>shop_name</key>
+                <string>OYSHO</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>146</string>
+                <key>shop_name</key>
+                <string>CALZEDONIA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>147</string>
+                <key>shop_name</key>
+                <string>ADIDAS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>148</string>
+                
+                <key>shop_name</key>
+                <string>FINSPOR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>149</string>
+                <key>shop_name</key>
+                
+                <string>REEBOK</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>150</string>
+                <key>shop_name</key>
+                <string>NIKE</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>151</string>
+                <key>shop_name</key>
+                <string>COLUMBIA</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>152</string>
+                <key>shop_name</key>
+                <string>HUMMEL</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>153</string>
+                <key>shop_name</key>
+                <string>FENERIUM</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>154</string>
+                <key>shop_name</key>
+                <string>CAMEL ACTIVE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>155</string>
+                
+                <key>shop_name</key>
+                <string>CAMPER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>156</string>
+                <key>shop_name</key>
+                
+                <string>DEICHMANN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>157</string>
+                <key>shop_name</key>
+                <string>DERİDEN</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>158</string>
+                <key>shop_name</key>
+                <string>DERİMOD</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>159</string>
+                <key>shop_name</key>
+                <string>DESA - SAMSONITE</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>160</string>
+                <key>shop_name</key>
+                <string>DIVARESE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>161</string>
+                <key>shop_name</key>
+                <string>DOCKERS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>162</string>
+                
+                <key>shop_name</key>
+                <string>HOTİÇ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>163</string>
+                <key>shop_name</key>
+                
+                <string>FLO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>164</string>
+                <key>shop_name</key>
+                <string>İNCİ</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>165</string>
+                <key>shop_name</key>
+                <string>BAMBİ</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>166</string>
+                <key>shop_name</key>
+                <string>BETA</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>167</string>
+                <key>shop_name</key>
+                <string>GREYDER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>168</string>
+                <key>shop_name</key>
+                <string>ALDO-SPRING</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>170</string>
+                
+                <key>shop_name</key>
+                <string>KIPLING</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>171</string>
+                <key>shop_name</key>
+                
+                <string>ORTOPEDIA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>172</string>
+                <key>shop_name</key>
+                <string>TERGAN</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>173</string>
+                <key>shop_name</key>
+                <string>CASE LOGIC</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>174</string>
+                <key>shop_name</key>
+                <string>W</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>214</string>
+                <key>shop_name</key>
+                <string>ALTINBAŞ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>215</string>
+                <key>shop_name</key>
+                <string>ARİS PIRLANTA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>216</string>
+                
+                <key>shop_name</key>
+                <string>ATASAY</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>217</string>
+                <key>shop_name</key>
+                
+                <string>KONYALI SAAT</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>218</string>
+                <key>shop_name</key>
+                <string>FAVORİ KUYUMCULUK</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>219</string>
+                <key>shop_name</key>
+                <string>ZEN DIAMOND</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>220</string>
+                <key>shop_name</key>
+                <string>SWATCH</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>221</string>
+                <key>shop_name</key>
+                <string>SAAT VE SAAT</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>222</string>
+                <key>shop_name</key>
+                <string>PIRLANT SAAT</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>223</string>
+                
+                <key>shop_name</key>
+                <string>GÜLAYLAR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>224</string>
+                <key>shop_name</key>
+                
+                <string>SO CHIC</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>225</string>
+                <key>shop_name</key>
+                <string>PARLA</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>226</string>
+                <key>shop_name</key>
+                <string>ASSOS</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>227</string>
+                <key>shop_name</key>
+                <string>SWAROVSKI</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>228</string>
+                <key>shop_name</key>
+                <string>GSA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>229</string>
+                <key>shop_name</key>
+                <string>NİŞANTAŞI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>230</string>
+                
+                <key>shop_name</key>
+                <string>ALEXI ANDRIOTTI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>231</string>
+                <key>shop_name</key>
+                
+                <string>DIMARA D'SGN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>232</string>
+                <key>shop_name</key>
+                <string>YELSS</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>233</string>
+                <key>shop_name</key>
+                <string>ACCESSORIZE</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>234</string>
+                <key>shop_name</key>
+                <string>PANDORA</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>291</string>
+                <key>shop_name</key>
+                <string>kategori</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>293</string>
+                <key>shop_name</key>
+                <string>&amp;STYLE</string>
+            </dict>
+        </array>
+        <key>Çocuk</key>
+        <array>
+            
+            <dict>
+                <key>sid</key>
+                <string>131</string>
+                <key>shop_name</key>
+                <string>ARMANI KIDS</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>132</string>
+                <key>shop_name</key>
+                <string>B&amp;G</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>134</string>
+                <key>shop_name</key>
+                <string>PANÇO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>136</string>
+                <key>shop_name</key>
+                <string>KAPBULA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>137</string>
+                
+                <key>shop_name</key>
+                <string>KIDAMORE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>169</string>
+                <key>shop_name</key>
+                
+                <string>STRIDE RITE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>253</string>
+                <key>shop_name</key>
+                <string>ARMAĞAN</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>257</string>
+                <key>shop_name</key>
+                <string>TOYZZ SHOP</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>260</string>
+                <key>shop_name</key>
+                <string>IMAGINARIUM</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>294</string>
+                <key>shop_name</key>
+                <string>JOKER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>296</string>
+                <key>shop_name</key>
+                <string>S&amp;D</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>295</string>
+                <key>shop_name</key>
+                <string>MOTHERCARE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>297</string>
+                
+                <key>shop_name</key>
+                <string>US POLO KIDS</string>
+            </dict>
+        </array>
+        <key>Hizmetler ve Diğer</key>
+        <array>
+            <dict>
+                
+                <key>sid</key>
+                <string>175</string>
+                <key>shop_name</key>
+                <string>ARÇELİK</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>176</string>
+                <key>shop_name</key>
+                <string>BOSCH</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>177</string>
+                
+                <key>shop_name</key>
+                <string>FAKIR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>178</string>
+                <key>shop_name</key>
+                
+                <string>VESTEL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>179</string>
+                <key>shop_name</key>
+                <string>EMSAN</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>180</string>
+                <key>shop_name</key>
+                <string>TEFAL</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>181</string>
+                <key>shop_name</key>
+                <string>SONY</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>182</string>
+                <key>shop_name</key>
+                <string>SAMSUNG DIGITAL PLAZA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>183</string>
+                <key>shop_name</key>
+                <string>BRAUN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>184</string>
+                
+                <key>shop_name</key>
+                <string>SATURN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>185</string>
+                <key>shop_name</key>
+                
+                <string>SIEMENS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>186</string>
+                <key>shop_name</key>
+                <string>LG</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>187</string>
+                <key>shop_name</key>
+                <string>TEKNOSA</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>188</string>
+                <key>shop_name</key>
+                <string>BİMEKS</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>189</string>
+                <key>shop_name</key>
+                <string>TURKCELL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>190</string>
+                <key>shop_name</key>
+                <string>AVEA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>191</string>
+                
+                <key>shop_name</key>
+                <string>NOKIA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>192</string>
+                <key>shop_name</key>
+                
+                <string>VODAFONE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>193</string>
+                <key>shop_name</key>
+                <string>HARİBO</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>194</string>
+                <key>shop_name</key>
+                <string>DAILY FRESH - K028</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>195</string>
+                <key>shop_name</key>
+                <string>CHOCNETTE</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>196</string>
+                <key>shop_name</key>
+                <string>CORN IN CUP</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>197</string>
+                <key>shop_name</key>
+                <string>BEK TOBACCO - KIOSK</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>198</string>
+                
+                <key>shop_name</key>
+                <string>MALATYA PAZARI</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>199</string>
+                <key>shop_name</key>
+                
+                <string>ZUMO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>200</string>
+                <key>shop_name</key>
+                <string>NE ŞEKER</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>201</string>
+                <key>shop_name</key>
+                <string>MADO - KIOSK</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>202</string>
+                <key>shop_name</key>
+                <string>BİND ÇİKOLATA</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>203</string>
+                <key>shop_name</key>
+                <string>CHOCOKEYİF</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>204</string>
+                <key>shop_name</key>
+                <string>STYLE GÜMÜŞ</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>205</string>
+                
+                <key>shop_name</key>
+                <string>BEBETO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>206</string>
+                <key>shop_name</key>
+                
+                <string>MAGIC CORN K-032</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>207</string>
+                <key>shop_name</key>
+                <string>MAGIC CORN K-035</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>209</string>
+                <key>shop_name</key>
+                <string>ETS TUR</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>210</string>
+                <key>shop_name</key>
+                <string>DÖVİZ</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>211</string>
+                <key>shop_name</key>
+                <string>L'OCCITANE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>212</string>
+                <key>shop_name</key>
+                <string>BEK TOBACCO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>213</string>
+                
+                <key>shop_name</key>
+                <string>ARKADAŞ PET</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>252</string>
+                <key>shop_name</key>
+                
+                <string>ADYAMO BOWLING</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>255</string>
+                <key>shop_name</key>
+                <string>D&amp;R</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>258</string>
+                <key>shop_name</key>
+                <string>REMZİ KİTABEVİ</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>259</string>
+                <key>shop_name</key>
+                <string>MAXI TOYS - JOKER</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>283</string>
+                <key>shop_name</key>
+                <string>DRY CENTER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>284</string>
+                <key>shop_name</key>
+                <string>ERSAN'S KUAFOR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>285</string>
+                
+                <key>shop_name</key>
+                <string>TERZIM JASMINE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>286</string>
+                <key>shop_name</key>
+                
+                <string>MAPFRE SİGORTA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>287</string>
+                <key>shop_name</key>
+                <string>HKM GIFT</string>
+                
+            </dict>
+        </array>
+        <key>Elektronik ve Ev Dekorasyon</key>
+        <array>
+            <dict>
+                <key>sid</key>
+                <string>235</string>
+                
+                <key>shop_name</key>
+                <string>KRC</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>236</string>
+                <key>shop_name</key>
+                
+                <string>ZARA HOME</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>237</string>
+                <key>shop_name</key>
+                <string>YATAS</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>238</string>
+                <key>shop_name</key>
+                <string>STEP HALI</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>239</string>
+                <key>shop_name</key>
+                <string>TEPE HOME</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>240</string>
+                <key>shop_name</key>
+                <string>BERNARDO</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>241</string>
+                <key>shop_name</key>
+                <string>CHAKRA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>242</string>
+                
+                <key>shop_name</key>
+                <string>ESSE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>243</string>
+                <key>shop_name</key>
+                
+                <string>EKE HOME</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>244</string>
+                <key>shop_name</key>
+                <string>GAGGENAU</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>245</string>
+                <key>shop_name</key>
+                <string>KERVANÇEYİZ</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>246</string>
+                <key>shop_name</key>
+                <string>HOME SWEET HOME</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>247</string>
+                <key>shop_name</key>
+                <string>YATSAN</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>248</string>
+                <key>shop_name</key>
+                <string>PENELOPE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>249</string>
+                
+                <key>shop_name</key>
+                <string>ÖZDİLEK</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>250</string>
+                <key>shop_name</key>
+                
+                <string>BAUHAUS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>251</string>
+                <key>shop_name</key>
+                <string>CARREFOUR</string>
+                
+            </dict>
+        </array>
+        <key>Eğlence</key>
+        <array>
+            <dict>
+                <key>sid</key>
+                <string>254</string>
+                
+                <key>shop_name</key>
+                <string>CINEMARS</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>300</string>
+                <key>shop_name</key>
+                
+                <string>FUN TIME 5D SINEMA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>299</string>
+                <key>shop_name</key>
+                <string>FUN PLUS EĞLENCE MERKEZİ</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>262</string>
+                <key>shop_name</key>
+                <string>MY FORUM</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>298</string>
+                <key>shop_name</key>
+                <string>CINEBONUS SİNEMA</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>301</string>
+                <key>shop_name</key>
+                <string>PLAY BOWLING</string>
+            </dict>
+        </array>
+        <key>Sağlık Güzellik</key>
+        
+        <array>
+            <dict>
+                <key>sid</key>
+                <string>263</string>
+                <key>shop_name</key>
+                <string>ATASUN OPTİK</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>264</string>
+                <key>shop_name</key>
+                <string>ECZANE</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>265</string>
+                <key>shop_name</key>
+                <string>FLORMAR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>266</string>
+                <key>shop_name</key>
+                <string>YVES ROCHER</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>267</string>
+                
+                <key>shop_name</key>
+                <string>TEKİN ACAR</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>268</string>
+                <key>shop_name</key>
+                
+                <string>ŞİŞLİ KENT OPTİK</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>269</string>
+                <key>shop_name</key>
+                
+                <string>OPMAR OPTİK</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>270</string>
+                <key>shop_name</key>
+                <string>ASMER MEDİKAL</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>271</string>
+                <key>shop_name</key>
+                <string>SEPHORA</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>272</string>
+                <key>shop_name</key>
+                <string>GRATIS</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>273</string>
+                <key>shop_name</key>
+                <string>THE BODY SHOP</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>274</string>
+                <key>shop_name</key>
+                <string>MAC</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>275</string>
+                
+                <key>shop_name</key>
+                <string>KIEHL'S</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>276</string>
+                <key>shop_name</key>
+                
+                <string>IXORA</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>277</string>
+                <key>shop_name</key>
+                <string>WATSONS</string>
+                
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>278</string>
+                <key>shop_name</key>
+                <string>MAKE UP STUDIO</string>
+            </dict>
+            
+            <dict>
+                <key>sid</key>
+                <string>279</string>
+                <key>shop_name</key>
+                <string>YASAM VE SAGLIK</string>
+            </dict>
+            <dict>
+                
+                <key>sid</key>
+                <string>280</string>
+                <key>shop_name</key>
+                <string>GNC LIVE WELL</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                
+                <string>281</string>
+                <key>shop_name</key>
+                <string>GOLDEN ROSE</string>
+            </dict>
+            <dict>
+                <key>sid</key>
+                <string>282</string>
+                
+                <key>shop_name</key>
+                <string>GÖZ GRUP</string>
+            </dict>
+        </array>
+    </dict>
+</plist>

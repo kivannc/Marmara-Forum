@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    
+    <array>
+        <string>FSM Köprüsü TEM Bağlantısı</string>
+        <string>Birinci Köprü Çevreyolu Bağlantısı</string>
+        <string>Sirkeci Sahilyolu Bağlantısı</string>
+        <string>Havaalanı Sahilyolu Bağlantısı</string>
+        <string>Avcılar Üzerinden Çevreyolu Bağlantısı</string>
+        <string>Otogar Yönünden Çevreyolu Bağlantısı</string>
+    </array>
+        
+    <array>
+        <string>Hipodrom-Ekrem Kurt Bulvarı Bağlantısı</string>
+        <string>Merter Çevreyolu Bağlantısı</string>
+        <string>Bahçelievler Metro Bağlantısı</string>
+    </array>
+    
+    <array>
+        <string>Zeytinburnu Metrobüs</string>
+        <string>Zeytinburnu Metro</string>
+    </array>
+    
+</array>
+</plist>
